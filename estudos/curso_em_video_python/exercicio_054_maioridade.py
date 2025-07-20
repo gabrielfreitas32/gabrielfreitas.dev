@@ -6,7 +6,7 @@ maiores = 0
 menores = 0
 
 # Laço para receber 6 anos de nascimento
-for c in range(1, 7):
+for c in range(1, 8):
     idade = int(input('Digite o ano do seu nascimento: '))
     ano_atual = date.today().year
     idade_atual = ano_atual - idade
